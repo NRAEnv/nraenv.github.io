@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="coqdoc.css" rel="stylesheet" type="text/css" />
+<title>Certiq.Compiler.Compiler</title>
+</head>
+
+<body>
+
+<div id="page">
+
+<div id="header">
+</div>
+
+<div id="main">
+
+<h1 class="libtitle">Certiq.Compiler.Compiler</h1>
+
+<div class="code">
+
+<br/>
+<span class="id" title="keyword">Module</span> <a name="Compiler"><span class="id" title="module">Compiler</span></a> (<span class="id" title="var">runtime</span>:<a class="idref" href="Certiq.Compiler.CompilerModel.CompilerRuntime.html#CompilerRuntime"><span class="id" title="module">CompilerRuntime</span></a>).<br/>
+
+<br/>
+
+<br/>
+&nbsp;&nbsp;<span class="id" title="keyword">Module</span> <a name="Compiler.RType"><span class="id" title="module">RType</span></a> := <a class="idref" href="Certiq.Compiler.Top.CompType.html#CompType"><span class="id" title="module">CompType.CompType</span></a> <a class="idref" href="Certiq.Compiler.Compiler.html#runtime"><span class="id" title="module">runtime</span></a>.<br/>
+&nbsp;&nbsp;<span class="id" title="keyword">Module</span> <a name="Compiler.Data"><span class="id" title="module">Data</span></a> := <a class="idref" href="Certiq.Compiler.Top.CompData.html#CompData"><span class="id" title="module">CompData.CompData</span></a> <a class="idref" href="Certiq.Compiler.Compiler.html#runtime"><span class="id" title="module">runtime</span></a>.<br/>
+&nbsp;&nbsp;<span class="id" title="keyword">Module</span> <a name="Compiler.Ops"><span class="id" title="module">Ops</span></a> := <a class="idref" href="Certiq.Compiler.Top.CompOperators.html#CompOperators"><span class="id" title="module">CompOperators.CompOperators</span></a> <a class="idref" href="Certiq.Compiler.Compiler.html#runtime"><span class="id" title="module">runtime</span></a>.<br/>
+
+<br/>
+&nbsp;&nbsp;<span class="id" title="keyword">Module</span> <a name="Compiler.OQL"><span class="id" title="module">OQL</span></a> := <a class="idref" href="Certiq.Compiler.Top.CompOQL.html#CompOQL"><span class="id" title="module">CompOQL.CompOQL</span></a> <a class="idref" href="Certiq.Compiler.Compiler.html#runtime"><span class="id" title="module">runtime</span></a>.<br/>
+&nbsp;&nbsp;<span class="id" title="keyword">Module</span> <a name="Compiler.Pattern"><span class="id" title="module">Pattern</span></a> := <a class="idref" href="Certiq.Compiler.Top.CompPattern.html#CompPattern"><span class="id" title="module">CompPattern.CompPattern</span></a> <a class="idref" href="Certiq.Compiler.Compiler.html#runtime"><span class="id" title="module">runtime</span></a>.<br/>
+&nbsp;&nbsp;<span class="id" title="keyword">Module</span> <a name="Compiler.Rule"><span class="id" title="module">Rule</span></a> := <a class="idref" href="Certiq.Compiler.Top.CompRule.html#CompRule"><span class="id" title="module">CompRule.CompRule</span></a> <a class="idref" href="Certiq.Compiler.Compiler.html#runtime"><span class="id" title="module">runtime</span></a>.<br/>
+
+<br/>
+&nbsp;&nbsp;<span class="id" title="keyword">Module</span> <a name="Compiler.CompFront"><span class="id" title="module">CompFront</span></a> := <a class="idref" href="Certiq.Compiler.Top.CompFront.html#CompFront"><span class="id" title="module">CompFront.CompFront</span></a> <a class="idref" href="Certiq.Compiler.Compiler.html#runtime"><span class="id" title="module">runtime</span></a>.<br/>
+&nbsp;&nbsp;<span class="id" title="keyword">Module</span> <a name="Compiler.CompCore"><span class="id" title="module">CompCore</span></a> := <a class="idref" href="Certiq.Compiler.Top.CompCore.html#CompCore"><span class="id" title="module">CompCore.CompCore</span></a> <a class="idref" href="Certiq.Compiler.Compiler.html#runtime"><span class="id" title="module">runtime</span></a>.<br/>
+&nbsp;&nbsp;<span class="id" title="keyword">Module</span> <a name="Compiler.CompBack"><span class="id" title="module">CompBack</span></a> := <a class="idref" href="Certiq.Compiler.Top.CompBack.html#CompBack"><span class="id" title="module">CompBack.CompBack</span></a> <a class="idref" href="Certiq.Compiler.Compiler.html#runtime"><span class="id" title="module">runtime</span></a>.<br/>
+&nbsp;&nbsp;<span class="id" title="keyword">Module</span> <a name="Compiler.EvalTop"><span class="id" title="module">EvalTop</span></a> := <a class="idref" href="Certiq.Compiler.Top.EvalTop.html#EvalTop"><span class="id" title="module">EvalTop.EvalTop</span></a> <a class="idref" href="Certiq.Compiler.Compiler.html#runtime"><span class="id" title="module">runtime</span></a>.<br/>
+&nbsp;&nbsp;<span class="id" title="keyword">Module</span> <a name="Compiler.CompStat"><span class="id" title="module">CompStat</span></a> := <a class="idref" href="Certiq.Compiler.Top.CompStat.html#CompStat"><span class="id" title="module">CompStat.CompStat</span></a> <a class="idref" href="Certiq.Compiler.Compiler.html#runtime"><span class="id" title="module">runtime</span></a>.<br/>
+
+<br/>
+&nbsp;&nbsp;<span class="id" title="keyword">Section</span> <a name="Compiler.PatternTest"><span class="id" title="section">PatternTest</span></a>.<br/>
+&nbsp;&nbsp;&nbsp;<span class="id" title="keyword">Definition</span> <a name="Compiler.validate_rule_success"><span class="id" title="definition">validate_rule_success</span></a> := <a class="idref" href="Certiq.Tests.PatternTest.html#validate_rule_success"><span class="id" title="definition">PatternTest.validate_rule_success</span></a>.<br/>
+&nbsp;&nbsp;&nbsp;<span class="id" title="keyword">Definition</span> <a name="Compiler.validate_lifted_success"><span class="id" title="definition">validate_lifted_success</span></a> := <a class="idref" href="Certiq.Tests.PatternTest.html#validate_lifted_success"><span class="id" title="definition">PatternTest.validate_lifted_success</span></a>.<br/>
+&nbsp;&nbsp;<span class="id" title="keyword">End</span> <a class="idref" href="Certiq.Compiler.Compiler.html#Compiler.PatternTest"><span class="id" title="section">PatternTest</span></a>.<br/>
+
+<br/>
+<span class="id" title="keyword">End</span> <a class="idref" href="Certiq.Compiler.Compiler.html#Compiler"><span class="id" title="module">Compiler</span></a>.<br/>
+
+<br/>
+</div>
+</div>
+
+<div id="footer">
+<hr/><a href="index.html">Index</a><hr/>This page has been generated by <a href="http://coq.inria.fr/">coqdoc</a>
+</div>
+
+</div>
+
+</body>
+</html>
