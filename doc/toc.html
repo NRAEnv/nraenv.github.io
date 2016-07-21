@@ -185,6 +185,10 @@
 <a href="Certiq.Translation.TNNRCtoPattern.html"><h2>Certiq.Translation.TNNRCtoPattern</h2></a>
 <a href="Certiq.Translation.TPatterntoNRA.html"><h2>Certiq.Translation.TPatterntoNRA</h2></a>
 <a href="Certiq.Translation.TPatterntoNRAEnv.html"><h2>Certiq.Translation.TPatterntoNRAEnv</h2></a>
+<a href="Certiq.Frontend.LambdaNRA.LambdaAlg.html"><h2>Certiq.Frontend.LambdaNRA.LambdaAlg</h2></a>
+<a href="Certiq.Frontend.LambdaNRA.LambdaAlgEq.html"><h2>Certiq.Frontend.LambdaNRA.LambdaAlgEq</h2></a>
+<a href="Certiq.Frontend.LambdaNRA.LambdaAlgtoNRAEnv.html"><h2>Certiq.Frontend.LambdaNRA.LambdaAlgtoNRAEnv</h2></a>
+<a href="Certiq.Frontend.LambdaNRA.LambdaAlgExamples.html"><h2>Certiq.Frontend.LambdaNRA.LambdaAlgExamples</h2></a>
 <a href="Certiq.Frontend.ODMG.OQL.html"><h2>Certiq.Frontend.ODMG.OQL</h2></a>
 <a href="Certiq.Frontend.ODMG.OQLSugar.html"><h2>Certiq.Frontend.ODMG.OQLSugar</h2></a>
 <a href="Certiq.Frontend.ODMG.OQLSize.html"><h2>Certiq.Frontend.ODMG.OQLSize</h2></a>
@@ -207,27 +211,42 @@
 <a href="Certiq.Backend.NNRCMRtoCloudant.html"><h2>Certiq.Backend.NNRCMRtoCloudant</h2></a>
 <a href="Certiq.Backend.CloudantMRtoJavascript.html"><h2>Certiq.Backend.CloudantMRtoJavascript</h2></a>
 <a href="Certiq.Backend.SparkData.html"><h2>Certiq.Backend.SparkData</h2></a>
+<a href="Certiq.Backend.DNNRCSparkIRRewrites.html"><h2>Certiq.Backend.DNNRCSparkIRRewrites</h2></a>
+<ul class="doclist">
+<li><a href="Certiq.Backend.DNNRCSparkIRRewrites.html#lab5">Iterate over a collection (the world), cast the element and perform some action on success, return the empty collection otherwise, and flatten at the end.</a>
+
+</li>
+<li><a href="Certiq.Backend.DNNRCSparkIRRewrites.html#lab6">We can translate this into a filter with a user defined cast function.</a>
+
+</li>
+<li><a href="Certiq.Backend.DNNRCSparkIRRewrites.html#lab7">We do not inline unbranding, as we would have to make sure that we don't use the branded value anywhere.</a>
+
+</li>
+</ul>
 <a href="Certiq.Backend.DNNRCtoScala.html"><h2>Certiq.Backend.DNNRCtoScala</h2></a>
 <ul class="doclist">
-<li><a href="Certiq.Backend.DNNRCtoScala.html#lab5">These are things like Int, String, Boolean, Array<span class="inlinecode">...</span>, Row.</a>
+<li><a href="Certiq.Backend.DNNRCtoScala.html#lab8">These are things like StringType, ArrayType(...), StructType(Seq(FieldType(...), ...)), ...</a>
 
 </li>
-<li><a href="Certiq.Backend.DNNRCtoScala.html#lab6">We need to annotate some expressions with Scala-level types</a>
+<li><a href="Certiq.Backend.DNNRCtoScala.html#lab9">This function encodes details of our data representation, e.g. records are StructFields</a>
 
 </li>
-<li><a href="Certiq.Backend.DNNRCtoScala.html#lab7">(e.g. Array<span class="inlinecode"><span class="id" title="var">Row</span></span>() for an empty Array of Records) to help</a>
+<li><a href="Certiq.Backend.DNNRCtoScala.html#lab10">with two toplevel fields known, and the </a>
 
 </li>
-<li><a href="Certiq.Backend.DNNRCtoScala.html#lab8">the Scala compiler because it does not infer types everywhere.</a>
+<li><a href="Certiq.Backend.DNNRCtoScala.html#lab11">statically known fields and their types.</a>
 
 </li>
-<li><a href="Certiq.Backend.DNNRCtoScala.html#lab9">Iterate over a collection (the world), cast the element and perform some action on success, return the empty collection otherwise, and flatten at the end.</a>
+<li><a href="Certiq.Backend.DNNRCtoScala.html#lab12">These are things like Int, String, Boolean, Array<span class="inlinecode">...</span>, Row.</a>
 
 </li>
-<li><a href="Certiq.Backend.DNNRCtoScala.html#lab10">We can translate this into a filter with a user defined cast function.</a>
+<li><a href="Certiq.Backend.DNNRCtoScala.html#lab13">We need to annotate some expressions with Scala-level types</a>
 
 </li>
-<li><a href="Certiq.Backend.DNNRCtoScala.html#lab11">We do not inline unbranding, as we would have to make sure that we don't use the branded value anywhere.</a>
+<li><a href="Certiq.Backend.DNNRCtoScala.html#lab14">(e.g. Array<span class="inlinecode"><span class="id" title="var">Row</span></span>() for an empty Array of Records) to help</a>
+
+</li>
+<li><a href="Certiq.Backend.DNNRCtoScala.html#lab15">the Scala compiler because it does not infer types everywhere.</a>
 
 </li>
 </ul>
@@ -266,13 +285,13 @@
 <a href="Certiq.Tests.TAlgTest.html"><h2>Certiq.Tests.TAlgTest</h2></a>
 <a href="Certiq.Tests.BrandTest.html"><h2>Certiq.Tests.BrandTest</h2></a>
 <ul class="doclist">
-<li><a href="Certiq.Tests.BrandTest.html#lab12">Examples manually translated from arl (JRules)</a>
+<li><a href="Certiq.Tests.BrandTest.html#lab16">Examples manually translated from arl (JRules)</a>
 
 </li>
 </ul>
 <a href="Certiq.Tests.TBrandTest.html"><h2>Certiq.Tests.TBrandTest</h2></a>
 <ul class="doclist">
-<li><a href="Certiq.Tests.TBrandTest.html#lab13">EXAMPLES manually translated from arl (JRules)</a>
+<li><a href="Certiq.Tests.TBrandTest.html#lab17">EXAMPLES manually translated from arl (JRules)</a>
 
 </li>
 </ul>
